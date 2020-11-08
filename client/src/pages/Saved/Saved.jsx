@@ -1,9 +1,18 @@
 import React from 'react';
+import Card from "../../components/Card/Card";
+
 
 const Saved = () => {
     return (
         <div>
-            <h1>This is the saved page</h1>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
         </div>
     );
 };

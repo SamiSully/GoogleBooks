@@ -18,8 +18,6 @@ function App() {
           <Route exact path="/saved" component={Saved} />
           <Route path="/" component={Search} />
         </Switch>
-
-        <Footer />
       </Router>
     </div>
   );
